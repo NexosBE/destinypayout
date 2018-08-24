@@ -4,7 +4,7 @@ bot.login("process.env.TOKEN")
 var prefix = ("*")
 
 bot.on('ready', function() {
-    bot.user.setPresence({ game: { name: 'https://www.destinylife.fr/', type: 2} })
+    bot.user.setPresence({ game: { name: 'destinylife', type: 2} })
     console.log("Connected");
 });
 bot.on("message", async function(message) {
